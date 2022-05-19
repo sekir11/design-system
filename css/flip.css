@@ -1,0 +1,200 @@
+.flip-down {
+  -webkit-animation-name: flipDownAnime;
+          animation-name: flipDownAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes flipDownAnime {
+  from {
+    -webkit-transform: perspective(2500px) rotateX(100deg);
+            transform: perspective(2500px) rotateX(100deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(2500px) rotateX(0);
+            transform: perspective(2500px) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flipDownAnime {
+  from {
+    -webkit-transform: perspective(2500px) rotateX(100deg);
+            transform: perspective(2500px) rotateX(100deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(2500px) rotateX(0);
+            transform: perspective(2500px) rotateX(0);
+    opacity: 1;
+  }
+}
+
+.flip-left {
+  -webkit-animation-name: flipLeftAnime;
+          animation-name: flipLeftAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-perspective-origin: left center;
+          perspective-origin: left center;
+  opacity: 0;
+}
+
+@-webkit-keyframes flipLeftAnime {
+  from {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipLeftAnime {
+  from {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-left-top {
+  -webkit-animation-name: flipLeftTopAnime;
+          animation-name: flipLeftTopAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes flipLeftTopAnime {
+  from {
+    -webkit-transform: translate(-20px, 80px) rotate(-15deg);
+            transform: translate(-20px, 80px) rotate(-15deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+            transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipLeftTopAnime {
+  from {
+    -webkit-transform: translate(-20px, 80px) rotate(-15deg);
+            transform: translate(-20px, 80px) rotate(-15deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0) rotate(0deg);
+            transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-right {
+  -webkit-animation-name: flipRightAnime;
+          animation-name: flipRightAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-perspective-origin: right center;
+          perspective-origin: right center;
+  opacity: 0;
+}
+
+@-webkit-keyframes flipRightAnime {
+  from {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(-30deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(-30deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipRightAnime {
+  from {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(-30deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(-30deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+            transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-right-top {
+  -webkit-animation-name: flipRightTopAnime;
+          animation-name: flipRightTopAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes flipRightTopAnime {
+  from {
+    -webkit-transform: translate(-20px, 80px) rotate(25deg);
+            transform: translate(-20px, 80px) rotate(25deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 1) rotate(0deg);
+            transform: translate(0, 1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flipRightTopAnime {
+  from {
+    -webkit-transform: translate(-20px, 80px) rotate(25deg);
+            transform: translate(-20px, 80px) rotate(25deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 1) rotate(0deg);
+            transform: translate(0, 1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  width: 220px;
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+  background: #666;
+  color: #fff;
+}
+/*# sourceMappingURL=flip.css.map */

@@ -1,0 +1,59 @@
+.rotateX {
+  animation-name: rotateXAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateXAnime {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(-360deg);
+  }
+}
+
+.rotateY {
+  animation-name: rotateYAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateYAnime {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+.rotate-left-z {
+  animation-name: rotateLeftZ;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateLeftZ {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.rotate-right-z {
+  animation-name: rotateRightZ;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateRightZ {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

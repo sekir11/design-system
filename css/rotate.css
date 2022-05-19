@@ -1,0 +1,124 @@
+.rotateX {
+  -webkit-animation-name: rotateXAnime;
+          animation-name: rotateXAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes rotateXAnime {
+  from {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  to {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
+}
+
+@keyframes rotateXAnime {
+  from {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  to {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
+}
+
+.rotateY {
+  -webkit-animation-name: rotateYAnime;
+          animation-name: rotateYAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes rotateYAnime {
+  from {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+  }
+}
+
+@keyframes rotateYAnime {
+  from {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+  }
+}
+
+.rotate-left-z {
+  -webkit-animation-name: rotateLeftZ;
+          animation-name: rotateLeftZ;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes rotateLeftZ {
+  from {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  to {
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes rotateLeftZ {
+  from {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  to {
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
+  }
+}
+
+.rotate-right-z {
+  -webkit-animation-name: rotateRightZ;
+          animation-name: rotateRightZ;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes rotateRightZ {
+  from {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotateRightZ {
+  from {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+/*# sourceMappingURL=rotate.css.map */

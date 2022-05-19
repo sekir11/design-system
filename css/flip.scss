@@ -1,0 +1,109 @@
+.flip-down {
+  animation-name: flipDownAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes flipDownAnime {
+  from {
+    transform: perspective(2500px) rotateX(100deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: perspective(2500px) rotateX(0);
+    opacity: 1;
+  }
+}
+
+.flip-left {
+  animation-name: flipLeftAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  perspective-origin: left center;
+  opacity: 0;
+}
+
+@keyframes flipLeftAnime {
+  from {
+    transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-left-top {
+  animation-name: flipLeftTopAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes flipLeftTopAnime {
+  from {
+    transform: translate(-20px, 80px) rotate(-15deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-right {
+  animation-name: flipRightAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  perspective-origin: right center;
+  opacity: 0;
+}
+
+@keyframes flipRightAnime {
+  from {
+    transform: perspective(600px) translate3d(0, 0, 0) rotateY(-30deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.flip-right-top {
+  animation-name: flipRightTopAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes flipRightTopAnime {
+  from {
+    transform: translate(-20px, 80px) rotate(25deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 220px;
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+  background: #666;
+  color: #fff;
+}
