@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,cAAc,EAAE,WAAW;EAC3B,kBAAkB,EAAE,EAAE;EACtB,mBAAmB,EAAE,QAAQ;EAC7B,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,CAAC;CACX;;AAED,UAAU,CAAV,WAAU;EACR,IAAI;IACF,SAAS,EAAE,uBAAuB,CAAC,YAAY;IAC/C,OAAO,EAAE,CAAC;;EAGZ,EAAE;IACA,SAAS,EAAE,oBAAoB,CAAC,QAAQ;IACxC,OAAO,EAAE,CAAC",
+    "sources": [
+        "smooth.scss"
+    ],
+    "names": [],
+    "file": "smooth.css"
+}

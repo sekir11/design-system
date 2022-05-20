@@ -594,4 +594,42 @@
             transform: scale(1);
   }
 }
+
+.smooth {
+  -webkit-animation-name: smoothAnime;
+          animation-name: smoothAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  opacity: 0;
+}
+
+@-webkit-keyframes smoothAnime {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0) skewY(12deg);
+            transform: translate3d(0, 100%, 0) skewY(12deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0) skewY(0);
+            transform: translate3d(0, 0, 0) skewY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes smoothAnime {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0) skewY(12deg);
+            transform: translate3d(0, 100%, 0) skewY(12deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0) skewY(0);
+            transform: translate3d(0, 0, 0) skewY(0);
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=main.css.map */
